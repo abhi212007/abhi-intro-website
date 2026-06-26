@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek | CSE Student & Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Neon Purple Blob Backgrounds -->
+    <div class="blob-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">A<span>.</span></a>
+            <nav class="nav-links">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#timeline" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-right">
+                <a href="#contact" class="btn btn-nav">Let's Connect</a>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav">
+        <a href="#hero" class="mobile-link">Home</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#timeline" class="mobile-link">Education</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+        <a href="#contact" class="btn btn-mobile">Let's Connect</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">Welcome to my portfolio</span>
+                    <h1 class="hero-title">Hi, I'm <span class="text-highlight">Abhishek</span></h1>
+                    <h2 class="hero-subtitle">
+                        I am a <span class="typing-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="hero-desc">
+                        A passionate Computer Science & Engineering student focused on building modern, high-performance web applications and solving complex algorithmic challenges.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#about" class="btn btn-secondary">More About Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="avatar-wrapper">
+                        <img src="avatar.png" alt="Abhishek's Avatar" class="avatar-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3';">
+                        <div class="avatar-glow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about">
+                    <span>Scroll Down</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">Who is <span class="text-highlight">Abhishek</span>?</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-info">
+                        <h3>Pursuing BE in Computer Science & Engineering</h3>
+                        <p class="about-text">
+                            I am currently pursuing my Bachelor of Engineering (BE) in Computer Science & Engineering. My academic journey has provided me with a strong foundation in core computer science concepts such as Data Structures, Algorithms, Software Engineering, and Database Management Systems.
+                        </p>
+                        <p class="about-text">
+                            Beyond the curriculum, I am highly interested in the evolving landscape of Web Development. I love combining clean code with modern aesthetics to craft premium web interfaces that are both functional and visually stunning.
+                        </p>
+                        <div class="about-cards">
+                            <div class="about-card">
+                                <i class="fa-solid fa-code card-icon"></i>
+                                <h4>Development</h4>
+                                <p>Building clean, responsive websites using HTML, CSS, JS & modern stacks.</p>
+                            </div>
+                            <div class="about-card">
+                                <i class="fa-solid fa-brain card-icon"></i>
+                                <h4>Problem Solving</h4>
+                                <p>Fascinated by DSA, optimization, and writing clean, scalable code.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-details-box">
+                        <div class="details-card">
+                            <h3>Quick Facts</h3>
+                            <ul class="details-list">
+                                <li>
+                                    <strong>Role:</strong>
+                                    <span>CSE Undergrad / Developer</span>
+                                </li>
+                                <li>
+                                    <strong>Education:</strong>
+                                    <span>BE in Computer Science</span>
+                                </li>
+                                <li>
+                                    <strong>Location:</strong>
+                                    <span>India</span>
+                                </li>
+                                <li>
+                                    <strong>Interests:</strong>
+                                    <span>Web Dev, UI/UX, Competitive Coding</span>
+                                </li>
+                            </ul>
+                            <div class="social-links">
+                                <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="mailto:abhishekmohite2007@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">My Capabilities</span>
+                    <h2 class="section-title">Technical <span class="text-highlight">Expertise</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="skills-container">
+                    <!-- Category 1 -->
+                    <div class="skills-category-card">
+                        <h3 class="category-title"><i class="fa-solid fa-terminal"></i> Languages</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>C++</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Java</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Python</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 2 -->
+                    <div class="skills-category-card">
+                        <h3 class="category-title"><i class="fa-solid fa-laptop-code"></i> Web & Database</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML5 & CSS3</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>React.js</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Node.js & Express</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 65%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>SQL / Databases</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 3 -->
+                    <div class="skills-category-card">
+                        <h3 class="category-title"><i class="fa-solid fa-sliders"></i> Tools & Practices</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Git & GitHub</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>VS Code</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Data Structures & Alg</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Linux Basics</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education/Timeline Section -->
+        <section id="timeline" class="timeline-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Education</span>
+                    <h2 class="section-title">Academic <span class="text-highlight">Journey</span></h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Engineering (BE) in Computer Science</h3>
+                            <p class="timeline-subtitle">Dr. D. Y. Patil Institute of Technology</p>
+                            <p class="timeline-desc">
+                                Actively learning core subjects like Data Structures and Algorithms, Object-Oriented Programming, Database Systems, Computer Networks, and Operating Systems. Maintaining a strong academic record and building practical software projects.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>Senior Secondary Education (High School)</h3>
+                            <p class="timeline-subtitle">Science & Mathematics Board</p>
+                            <p class="timeline-desc">
+                                Completed high school education with a focus on Physics, Chemistry, and Mathematics (PCM), which laid down the analytical skills necessary for pursuing Engineering.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Portfolio</span>
+                    <h2 class="section-title">Featured <span class="text-highlight">Projects</span></h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <!-- Fallback background gradients for project covers -->
+                            <div class="project-img-fallback p-img-1">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <h3>AlgoVisualizer</h3>
+                            <p>An interactive, web-based tool designed to visualize sorting algorithms (Bubble, Selection, Insertion, Quick, Merge) and pathfinding algorithms (Dijkstra, A*). Provides a step-by-step graphic execution to aid learning.</p>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <div class="project-img-fallback p-img-2">
+                                <i class="fa-solid fa-comments"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>NodeJS</span>
+                                <span>Socket.io</span>
+                            </div>
+                            <h3>CodeCollab</h3>
+                            <p>A real-time collaborative code editor that allows multiple users to write and edit code simultaneously. Implements WebSockets for synchronization and features a built-in messaging chatroom.</p>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <div class="project-img-fallback p-img-3">
+                                <i class="fa-solid fa-list-check"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>CSS Variables</span>
+                                <span>LocalStorage</span>
+                            </div>
+                            <h3>TaskFlow</h3>
+                            <p>A sleek, glassmorphic productivity planner specifically designed for students. Includes drag-and-drop task boards, customizable category tags, priority flags, and statistics dashboard using LocalStorage for persistence.</p>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's <span class="text-highlight">Connect</span></h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Drop Me a Line</h3>
+                        <p>Have an interesting project, collaboration opportunity, or just want to say hi? Feel free to send a message and I'll get back to you as soon as possible!</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method-item">
+                                <div class="icon-box">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4>Email Me</h4>
+                                    <a href="mailto:abhishek@example.com">abhishekmohite2007@gmail.com.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-method-item">
+                                <div class="icon-box">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <span>India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" required placeholder=" ">
+                                <label for="name">Your Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" required placeholder=" ">
+                                <label for="email">Your Email</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" required placeholder=" ">
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" required rows="5" placeholder=" "></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Abhishek. All rights reserved.</p>
+            <p>Designed with <i class="fa-solid fa-heart" style="color: var(--primary-color);"></i> &amp; Neon Purple</p>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="successModal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h2>Message Sent Successfully!</h2>
+            <p>Thank you for reaching out. I'll get in touch with you shortly.</p>
+            <button class="btn btn-primary modal-close-btn" id="closeModal">Awesome</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
